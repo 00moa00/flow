@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{ee392417-13ad-4b81-bf72-118b1af44ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Headers">
+      <UniqueIdentifier>{320023fc-25d4-4a0f-ad29-ec1bcbfdcb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Sources">
+      <UniqueIdentifier>{1d72a08b-934f-421b-ad70-9aaf19020d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Shaders">
+      <UniqueIdentifier>{f65fe909-758d-4304-8fd6-9ee628d0a827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLib\blender.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\debug.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\dxtk_audio.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\font.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\frame_rate.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\game_lib.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\high_resolution_timer.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\input_manager.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\misc.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\obj2d_data.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\primitive.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\resource_manager.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\sprite.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\texture.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\util.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\vector.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\view_settings.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\all.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\scene.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\title.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\work.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\user.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\tuto.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\bg.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\sprite_data.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLib\system.h">
+      <Filter>GameLib\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\enemy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\obj2d.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\usef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\juge.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\clear.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\Over.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\item.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\scene_story.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameLib\primitive.hlsli">
+      <Filter>GameLib\Shaders</Filter>
+    </None>
+    <None Include="GameLib\primitive_batch.hlsli">
+      <Filter>GameLib\Shaders</Filter>
+    </None>
+    <None Include="GameLib\sprite.hlsli">
+      <Filter>GameLib\Shaders</Filter>
+    </None>
+    <None Include="GameLib\sprite_batch.hlsli">
+      <Filter>GameLib\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="GameLib\primitive_batch_ps.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\primitive_batch_vs.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\primitive_ps.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\primitive_vs.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\sprite_batch_ps.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\sprite_batch_vs.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\sprite_ps.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GameLib\sprite_vs.hlsl">
+      <Filter>GameLib\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameLib\view_settings.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\vector.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\texture.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\sprite.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\resource_manager.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\primitive.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\obj2d_data.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\input_manager.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\game_lib.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\frame_rate.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\font.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\dxtk_audio.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLib\debug.cpp">
+      <Filter>GameLib\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\scene.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\title.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\work.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\tuto.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\bg.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\sprite_data.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\enemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\obj2d.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\juge.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\clear.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\Over.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\item.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\scene_story.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
